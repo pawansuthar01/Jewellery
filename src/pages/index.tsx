@@ -259,8 +259,8 @@ function Home() {
                   <MapPin className="w-8 h-8 text-yellow-400" />
                   <p>
                     {" "}
-                    S.P CNC JEWELLERS S.K.N JEWELLERS Shop No. 1, Shastri Nagar,
-                    Neoli Kalan, Hisar, Haryana 125001
+                    S.P CNC JEWELLERS Shop No. 1, Shastri Nagar, Neoli Kalan,
+                    Hisar, Haryana 125001
                   </p>
                 </div>
                 <div className="flex items-center gap-4 p-4 bg-white/10 rounded-xl backdrop-blur-sm">
