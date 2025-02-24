@@ -48,7 +48,7 @@ function Home() {
             <div className="flex items-center">
               <Crown className="h-10 w-10 text-yellow-400" />
               <span className="ml-2 max-[530px]:text-lg text-2xl font-bold text-white">
-                S.K.N JEWELLERS
+                S.P CNC JEWELLERS
               </span>
             </div>
 
@@ -153,7 +153,7 @@ function Home() {
             <Crown className="w-16 h-16 text-yellow-400" />
           </div>
           <h1 className="text-5xl max-[530px]:text-lg  font-bold mb-6 animate-fade-in bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-yellow-400">
-            S.K.N JEWELLERS
+            S.P CNC JEWELLERS
           </h1>
           <p className="text-2xl animate-fade-in-delay text-gray-200">
             Jewels That Tell a Story of Elegance & Grace
@@ -258,14 +258,17 @@ function Home() {
                 <div className="flex items-center gap-4 p-4 bg-white/10 rounded-xl backdrop-blur-sm">
                   <MapPin className="w-8 h-8 text-yellow-400" />
                   <p>
-                    S.K.N JEWELLERS Shop No. 1, Shastri Nagar, Neoli Kalan,
-                    Hisar, Haryana 125001
+                    {" "}
+                    S.P CNC JEWELLERS S.K.N JEWELLERS Shop No. 1, Shastri Nagar,
+                    Neoli Kalan, Hisar, Haryana 125001
                   </p>
                 </div>
                 <div className="flex items-center gap-4 p-4 bg-white/10 rounded-xl backdrop-blur-sm">
                   <Phone className="w-8 h-8 text-yellow-400" />
-
-                  <a href="tel:+81682 79274">+91 81682 79274</a>
+                  <div className="flex flex-col">
+                    <a href="tel:+81682 79274">+91 81682 79274</a>
+                    <a href="tel:+94663 35874">+91 94663 35874</a>
+                  </div>
                 </div>
                 <div className="flex items-center gap-4 p-4 bg-white/10 rounded-xl backdrop-blur-sm">
                   <Mail className="w-8 h-8 text-yellow-400" />
@@ -325,7 +328,10 @@ function Home() {
             <div>
               <div className="flex items-center mb-6">
                 <Crown className="h-8 w-8 text-yellow-400" />
-                <span className="ml-2 text-xl font-bold">S.K.N JEWELLERS</span>
+                <span className="ml-2 text-xl font-bold">
+                  {" "}
+                  S.P CNC JEWELLERS
+                </span>
               </div>
             </div>
             <div>
@@ -404,7 +410,7 @@ function Home() {
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-white/10 text-center text-gray-400">
-            <p>&copy; {date} S.K.N JEWELLERS. All rights reserved.</p>
+            <p>&copy; {date} S.P CNC JEWELLERS. All rights reserved.</p>
           </div>
         </div>
       </footer>
