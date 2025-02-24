@@ -40,14 +40,14 @@ function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-hidden">
       {/* Navigation */}
       <nav className="fixed w-full z-50 bg-gradient-to-r from-[#242424]/80 to-black/80 backdrop-blur-lg border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center">
               <Crown className="h-10 w-10 text-yellow-400" />
-              <span className="ml-2 text-2xl font-bold text-white">
+              <span className="ml-2 max-[530px]:text-lg text-2xl font-bold text-white">
                 S.K.N JEWELLERS
               </span>
             </div>
@@ -152,11 +152,11 @@ function Home() {
           <div className="flex justify-center mb-6 animate-bounce-slow">
             <Crown className="w-16 h-16 text-yellow-400" />
           </div>
-          <h1 className="text-7xl font-bold mb-6 animate-fade-in bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-yellow-400">
+          <h1 className="text-5xl max-[530px]:text-lg  font-bold mb-6 animate-fade-in bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-yellow-400">
             S.K.N JEWELLERS
           </h1>
           <p className="text-2xl animate-fade-in-delay text-gray-200">
-            Where timeless elegance meets contemporary artistry
+            Jewels That Tell a Story of Elegance & Grace
           </p>
         </div>
       </section>
