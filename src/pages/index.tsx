@@ -266,8 +266,8 @@ function Home() {
                 <div className="flex items-center gap-4 p-4 bg-white/10 rounded-xl backdrop-blur-sm">
                   <Phone className="w-8 h-8 text-yellow-400" />
                   <div className="flex flex-col">
-                    <a href="tel:+81682 79274">+91 81682 79274</a>
-                    <a href="tel:+94663 35874">+91 94663 35874</a>
+                    <a href="tel:+91 81682 79274">+91 81682 79274</a>
+                    <a href="tel:+91 94663 35874">+91 94663 35874</a>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 p-4 bg-white/10 rounded-xl backdrop-blur-sm">
